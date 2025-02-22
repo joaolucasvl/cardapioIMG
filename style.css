@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-container img {
+    width: 80vh;
+    border-radius: 10px;
+}
+@media (max-width: 800px) {
+    .menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-container img {
+        width: 100%;
+    }
+}
